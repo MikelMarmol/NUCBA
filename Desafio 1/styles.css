@@ -1,0 +1,76 @@
+body{
+    background-color: royalblue;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.titulo{
+ font-size: 45px;
+ color: white;
+ font-family:'Gill Sans MT';
+ text-decoration: underline;
+}
+
+.imagenkun{
+    width: 500px;
+}
+
+.subtitulos{
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family:'Gill Sans MT';
+    
+}
+.datospersonales{
+    color: white;
+    font-size: 18px;
+    
+}
+
+.minititulos{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+.slider-container {
+    display: flex;
+    width: 50%;
+    height: 500px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+   
+  }
+  
+.slider-container img {
+    flex: 0 0 100%;
+    width: 500%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+
+
+
+
+.efecto{
+    height: 300px;
+    width: 500px;
+    margin: 15px 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+ 
+.efecto:hover {
+    height: 333px;
+    width: 600px;
+    margin-left: -50px;
+}
+
+.equipo{
+    color: white;
+    font-size: 20px;
+}
+
